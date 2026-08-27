@@ -61,18 +61,15 @@ Avaliar cada teste de 1 a 5:
 | Qualidade do currículo | O resultado é profissional e coerente? |
 | Autonomia | O estudante compreende o que foi construído? |
 
-## Registro de teste
+## Registro de teste — Versão 1.0
 
-Para cada teste, registrar:
+**Status:** Validada em teste prático com educandos.
 
-- data;
-- versão do prompt;
-- cenário;
-- entrada utilizada;
-- comportamento observado;
-- problema identificado;
-- ajuste proposto;
-- resultado após ajuste.
+**Tipo de validação:** utilização do agente pelos próprios educandos e testes realizados com outros educandos.
+
+**Resultado observado:** o agente funcionou adequadamente para a finalidade proposta e foi considerado apto para evolução para uma nova versão.
+
+**Observação:** os testes realizados nesta etapa tiveram caráter prático e exploratório. A próxima versão deverá incorporar os aprendizados e feedbacks observados durante a utilização.
 
 ## Critério para versão piloto
 
@@ -82,4 +79,5 @@ O agente poderá avançar para teste com estudantes quando os cenários crítico
 
 | Versão | Data | Alteração | Resultado |
 |---|---|---|---|
-| 1.0 | 20/08/2026 | Arquitetura inicial e Prompt Mestre | Em teste |
+| 1.0 | 20/08/2026 | Arquitetura inicial e Prompt Mestre | Validada em teste prático com educandos |
+| 2.0 | Em desenvolvimento | Evolução a partir dos testes e feedbacks | Pendente |
