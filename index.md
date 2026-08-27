@@ -11,10 +11,13 @@ O **Meu Primeiro Currículo** é um agente educacional de IA para apoiar jovens 
 - [Fluxo do agente](docs/fluxo-do-agente.md) — etapas, estados, transições e situações excepcionais.
 - [Prompt Mestre](docs/prompt-mestre.md) — instrução principal para implementação do agente no Gemini.
 - [Plano de testes](docs/testes.md) — cenários e critérios de validação.
+- [Registro do semestre](docs/semestre-2026.md) — histórico do desenvolvimento, atividades, implementação, testes, resultados e próximos passos.
 
 ## Fluxo de desenvolvimento
 
 ```text
+Problema educacional
+    ↓
 Planejamento
     ↓
 Arquitetura
@@ -25,13 +28,13 @@ Prompt Mestre
     ↓
 Implementação no Gemini
     ↓
-Testes
+Testes com educandos
     ↓
-Piloto com estudantes
+Validação da V1.0
     ↓
-Avaliação
+Feedback
     ↓
-Refinamento
+Planejamento da V2.0
 ```
 
 ## Princípio central
@@ -44,5 +47,10 @@ Refinamento
 
 ## Status
 
-**Versão:** 1.0  
-**Status:** arquitetura e documentação inicial concluídas; implementação e testes pendentes.
+**Versão validada:** 1.0  
+**Próxima versão:** 2.0 em planejamento  
+**Status:** projeto funcional, documentado e em evolução a partir de testes práticos com educandos.
+
+## Registro do semestre
+
+O histórico completo do desenvolvimento realizado no semestre está disponível em [Registro do semestre — 2026](docs/semestre-2026.md).
