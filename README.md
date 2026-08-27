@@ -152,11 +152,22 @@ A documentação completa está organizada no [índice do projeto](index.md):
 
 ---
 
+## 🧪 Validação da versão 1.0
+
+A versão 1.0 foi utilizada em **testes práticos com educandos**, incluindo utilização pelos próprios estudantes e testes realizados com outros educandos.
+
+O agente funcionou adequadamente para a finalidade proposta e foi considerado apto para evolução para a versão 2.0.
+
+Os próximos ajustes serão orientados pelos aprendizados e feedbacks obtidos durante essa utilização prática.
+
+---
+
 ## 🏗️ Status do projeto
 
-**Versão:** 1.0  
+**Versão:** 2.0 em desenvolvimento  
+**Versão validada:** 1.0  
 **Data de início:** 20/08/2026  
-**Status:** 🟡 Arquitetura e documentação inicial concluídas
+**Status:** 🟡 Evolução a partir de validação prática
 
 ### Progresso
 
@@ -168,9 +179,11 @@ A documentação completa está organizada no [índice do projeto](index.md):
 - [x] Fluxo operacional
 - [x] Prompt Mestre
 - [x] Documentação inicial
-- [ ] Implementação do GEM
-- [ ] Testes
-- [ ] Piloto com estudantes
+- [x] Implementação do GEM
+- [x] Testes práticos com educandos
+- [ ] Especificação da versão 2.0
+- [ ] Novos testes
+- [ ] Piloto estruturado
 - [ ] Avaliação pedagógica
 - [ ] Refinamento
 - [ ] Versão final
@@ -192,10 +205,17 @@ O agente poderá ser integrado às atividades relacionadas a:
 
 ---
 
+## 👨‍🏫 Contexto
+
+Projeto desenvolvido como parte de uma proposta de educação tecnológica voltada para **inclusão digital, autonomia tecnológica, desenvolvimento humano e preparação para o mundo do trabalho**.
+
+---
+
 ## 📅 Registro
 
 **Projeto:** Meu Primeiro Currículo  
 **Programa:** PMT – Programa de Preparação para o Mundo do Trabalho  
 **Público:** 14–17 anos  
-**Versão:** 1.0  
+**Versão validada:** 1.0  
+**Versão em desenvolvimento:** 2.0  
 **Início:** 20/08/2026
