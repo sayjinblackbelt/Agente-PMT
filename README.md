@@ -22,13 +22,13 @@ O estudante é conduzido por um processo de:
 
 O projeto busca ajudar o estudante a:
 
-* reconhecer suas competências;
-* identificar experiências relevantes;
-* organizar formação e conhecimentos;
-* desenvolver comunicação profissional;
-* construir um currículo claro e verdadeiro;
-* adaptar o currículo a diferentes oportunidades;
-* utilizar Inteligência Artificial de maneira responsável.
+- reconhecer suas competências;
+- identificar experiências relevantes;
+- organizar formação e conhecimentos;
+- desenvolver comunicação profissional;
+- construir um currículo claro e verdadeiro;
+- adaptar o currículo a diferentes oportunidades;
+- utilizar Inteligência Artificial de maneira responsável.
 
 ---
 
@@ -46,11 +46,11 @@ Jovens de **14 a 17 anos**, participantes do Programa de Preparação para o Mun
 
 O projeto considera que muitos estudantes:
 
-* ainda não possuem experiência profissional formal;
-* têm dificuldade para reconhecer suas competências;
-* não sabem como apresentar experiências escolares ou pessoais;
-* possuem pouca experiência com processos seletivos;
-* precisam desenvolver autonomia e responsabilidade digital.
+- ainda não possuem experiência profissional formal;
+- têm dificuldade para reconhecer suas competências;
+- não sabem como apresentar experiências escolares ou pessoais;
+- possuem pouca experiência com processos seletivos;
+- precisam desenvolver autonomia e responsabilidade digital.
 
 ---
 
@@ -62,19 +62,19 @@ A construção do projeto utiliza duas etapas principais:
 
 Utilizado para:
 
-* arquitetura do agente;
-* definição de objetivos;
-* criação das diretrizes;
-* organização do fluxo;
-* elaboração do Prompt Mestre.
+- arquitetura do agente;
+- definição de objetivos;
+- criação das diretrizes;
+- organização do fluxo;
+- elaboração do Prompt Mestre.
 
 ### Google Gemini
 
 Utilizado para:
 
-* implementação do agente;
-* criação do GEM;
-* testes e utilização prática.
+- implementação do agente;
+- criação do GEM;
+- testes e utilização prática.
 
 ### Fluxo
 
@@ -98,11 +98,11 @@ Estudante
 
 O projeto incorpora princípios da **Pedagogia Heulosófica**, especialmente:
 
-* **Maiêutica:** perguntas orientadoras para estimular a construção das próprias respostas.
-* **Saneamento mental:** organização de pensamentos e experiências antes da produção do currículo.
-* **Autoconhecimento:** identificação de conhecimentos, experiências e competências.
-* **Autonomia:** participação ativa do estudante na construção do documento.
-* **Reflexão:** compreensão do que foi aprendido e de como isso pode ser comunicado profissionalmente.
+- **Maiêutica:** perguntas orientadoras para estimular a construção das próprias respostas.
+- **Saneamento mental:** organização de pensamentos e experiências antes da produção do currículo.
+- **Autoconhecimento:** identificação de conhecimentos, experiências e competências.
+- **Autonomia:** participação ativa do estudante na construção do documento.
+- **Reflexão:** compreensão do que foi aprendido e de como isso pode ser comunicado profissionalmente.
 
 A tecnologia deve apoiar o desenvolvimento do estudante, e não substituir seu processo de reflexão.
 
@@ -124,20 +124,6 @@ Competência
 Comunicação profissional
 ```
 
-Exemplo:
-
-Um estudante participa de um projeto escolar.
-
-O agente investiga:
-
-* O que você fez?
-* Qual era sua responsabilidade?
-* Trabalhou em equipe?
-* Que problema precisou resolver?
-* O que aprendeu?
-
-A partir dessas respostas, ajuda o estudante a reconhecer competências reais.
-
 ---
 
 ## 🛡️ Veracidade e responsabilidade
@@ -146,14 +132,7 @@ Regra central:
 
 > **Profissionalizar a linguagem sem alterar a realidade.**
 
-O agente não deve:
-
-* inventar experiências;
-* inventar cursos;
-* inventar certificados;
-* criar competências inexistentes;
-* exagerar conhecimentos;
-* criar resultados que não foram informados.
+O agente não deve inventar experiências, cursos, certificados, competências ou resultados.
 
 Quando uma informação estiver incompleta, o agente deve perguntar.
 
@@ -161,57 +140,40 @@ Como o público é composto por adolescentes, o projeto também adota cuidados e
 
 ---
 
-## 📄 Resultado esperado
+## 📚 Documentação
 
-Ao final da interação, o estudante deverá ter:
+A documentação completa está organizada no [índice do projeto](index.md):
 
-* um currículo estruturado;
-* informações organizadas;
-* linguagem profissional;
-* maior compreensão de suas próprias competências;
-* maior clareza sobre seus interesses profissionais;
-* capacidade de adaptar o currículo para uma vaga.
-
-O objetivo educacional é maior que o documento final: **o estudante deve aprender a construir e compreender o próprio currículo**.
+- [Arquitetura](docs/arquitetura.md)
+- [Diretrizes pedagógicas](docs/diretrizes-pedagogicas.md)
+- [Fluxo do agente](docs/fluxo-do-agente.md)
+- [Prompt Mestre](docs/prompt-mestre.md)
+- [Plano de testes](docs/testes.md)
 
 ---
 
 ## 🏗️ Status do projeto
 
-**Versão:** 1.0
-**Data de início:** 20/08/2026
-**Status:** 🟡 Em desenvolvimento
+**Versão:** 1.0  
+**Data de início:** 20/08/2026  
+**Status:** 🟡 Arquitetura e documentação inicial concluídas
 
-### Etapas atuais
+### Progresso
 
-* [x] Definição do projeto
-* [x] Definição do público
-* [x] Arquitetura conceitual
-* [x] Diretrizes pedagógicas
-* [x] Regras e limites
-* [x] Fluxo operacional
-* [x] Prompt Mestre
-* [ ] Implementação do GEM
-* [ ] Testes
-* [ ] Piloto com estudantes
-* [ ] Avaliação pedagógica
-* [ ] Refinamento
-* [ ] Versão final
-
----
-
-## 📚 Documentação
-
-A documentação detalhada será organizada progressivamente em:
-
-```text
-docs/
-├── arquitetura.md
-├── prompt-mestre.md
-├── diretrizes-pedagogicas.md
-├── fluxo-do-agente.md
-└── testes.md
-```
+- [x] Definição do projeto
+- [x] Definição do público
+- [x] Arquitetura conceitual
+- [x] Diretrizes pedagógicas
+- [x] Regras e limites
+- [x] Fluxo operacional
+- [x] Prompt Mestre
+- [x] Documentação inicial
+- [ ] Implementação do GEM
+- [ ] Testes
+- [ ] Piloto com estudantes
+- [ ] Avaliação pedagógica
+- [ ] Refinamento
+- [ ] Versão final
 
 ---
 
@@ -219,27 +181,21 @@ docs/
 
 O agente poderá ser integrado às atividades relacionadas a:
 
-* currículo de Jovem Aprendiz;
-* Google Docs;
-* comunicação profissional;
-* e-mail;
-* pesquisa de vagas;
-* preparação para entrevistas;
-* apresentação profissional;
-* uso responsável da Inteligência Artificial.
+- currículo de Jovem Aprendiz;
+- Google Docs;
+- comunicação profissional;
+- e-mail;
+- pesquisa de vagas;
+- preparação para entrevistas;
+- apresentação profissional;
+- uso responsável da Inteligência Artificial.
 
 ---
 
-## 👨‍🏫 Contexto
+## 📅 Registro
 
-Projeto desenvolvido como parte de uma proposta de educação tecnológica voltada para **inclusão digital, autonomia tecnológica, desenvolvimento humano e preparação para o mundo do trabalho**.
-
----
-
-## 📅 Registro do projeto
-
-**Projeto:** Meu Primeiro Currículo
-**Programa:** PMT – Programa de Preparação para o Mundo do Trabalho
-**Público:** 14–17 anos
-**Versão:** 1.0
+**Projeto:** Meu Primeiro Currículo  
+**Programa:** PMT – Programa de Preparação para o Mundo do Trabalho  
+**Público:** 14–17 anos  
+**Versão:** 1.0  
 **Início:** 20/08/2026
