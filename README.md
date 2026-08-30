@@ -1,5 +1,7 @@
 # 🤖 Meu Primeiro Currículo
 
+🇧🇷 Português | [🇺🇸 English](README.en.md) | [🇪🇸 Español](README.es.md)
+
 > Projeto real de Inteligência Artificial aplicada à educação e à preparação de jovens para a primeira oportunidade profissional.
 
 ## 📌 Sobre
