@@ -162,3 +162,12 @@ O agente pode apoiar atividades relacionadas a:
 **Versão validada:** 1.0  
 **Versão em planejamento:** 2.0  
 **Registro do projeto:** `docs/semestre-2026.md`
+
+---
+
+## Author
+
+**Filipe G Morais**
+
+GitHub: https://github.com/sayjinblackbelt  
+Repository: https://github.com/sayjinblackbelt/2026_Professional_Projects_Meu_Primeiro_Curriculo
