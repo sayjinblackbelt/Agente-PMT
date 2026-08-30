@@ -1,10 +1,10 @@
 # 🤖 Meu Primeiro Currículo
 
-> Agente educacional de Inteligência Artificial para apoiar jovens na construção do primeiro currículo profissional.
+> Projeto real de Inteligência Artificial aplicada à educação e à preparação de jovens para a primeira oportunidade profissional.
 
 ## 📌 Sobre
 
-**Meu Primeiro Currículo** é um projeto desenvolvido no contexto do **Programa de Preparação para o Mundo do Trabalho (PMT)** para jovens de 14 a 17 anos.
+**Meu Primeiro Currículo** é um projeto educacional desenvolvido para apoiar jovens de **14 a 17 anos** na construção do primeiro currículo profissional.
 
 O projeto utiliza Inteligência Artificial como ferramenta de apoio à **empregabilidade, autonomia, autoconhecimento e comunicação profissional**.
 
@@ -34,32 +34,32 @@ Por isso, o agente atua como **orientador, entrevistador, organizador e revisor*
 
 ## 👥 Público-alvo
 
-Jovens de **14 a 17 anos**, participantes do Programa de Preparação para o Mundo do Trabalho.
+Jovens de **14 a 17 anos** em processo de preparação para a primeira oportunidade profissional.
 
-## 🛠️ Tecnologias
+## 🛠️ Tecnologias e construção
 
-A construção do projeto utiliza duas etapas principais:
+O projeto combina planejamento pedagógico, engenharia de prompts e ferramentas de Inteligência Artificial:
 
-### ChatGPT
+### Arquitetura e planejamento
 
-Utilizado para arquitetura, planejamento, diretrizes, organização do fluxo e elaboração do Prompt Mestre.
+Utilização de IA para definição da arquitetura, fluxos, diretrizes, regras e documentação do projeto.
 
-### Google Gemini
+### Implementação e testes
 
-Utilizado para implementação do agente, criação do GEM e testes práticos.
+Utilização de ferramentas de IA generativa para implementação do agente, criação do GEM e realização de testes práticos.
 
 ### Fluxo
 
 ```text
-ChatGPT
+Planejamento
    ↓
 Arquitetura e diretrizes
    ↓
 Prompt Mestre
    ↓
-Google Gemini
+Implementação do agente
    ↓
-GEM
+Testes práticos
    ↓
 Estudante
 ```
@@ -94,7 +94,7 @@ Comunicação profissional
 
 O agente não deve inventar experiências, cursos, certificados, competências ou resultados. Quando uma informação estiver incompleta, deve perguntar.
 
-Como o público inclui adolescentes, o projeto também adota cuidados específicos com privacidade e proteção de dados.
+Como o público inclui adolescentes, o projeto adota cuidados específicos com **privacidade, proteção de dados e uso responsável da Inteligência Artificial**.
 
 ## 📚 Documentação
 
@@ -129,7 +129,7 @@ O agente funcionou adequadamente para a finalidade proposta e foi considerado ap
 - [x] Fluxo operacional
 - [x] Prompt Mestre
 - [x] Documentação inicial
-- [x] Implementação do GEM
+- [x] Implementação do agente
 - [x] Testes práticos com educandos
 - [x] Registro do semestre
 - [ ] Especificação da versão 2.0
@@ -139,15 +139,24 @@ O agente funcionou adequadamente para a finalidade proposta e foi considerado ap
 - [ ] Refinamento
 - [ ] Versão final
 
-## 💼 Aplicação no PMT
+## 💼 Aplicações educacionais
 
-O agente poderá ser integrado às atividades relacionadas a currículo de Jovem Aprendiz, Google Docs, comunicação profissional, e-mail, pesquisa de vagas, preparação para entrevistas, apresentação profissional e uso responsável da Inteligência Artificial.
+O agente pode apoiar atividades relacionadas a:
+
+- currículo de Jovem Aprendiz;
+- Google Docs;
+- comunicação profissional;
+- e-mail;
+- pesquisa de vagas;
+- preparação para entrevistas;
+- apresentação profissional;
+- uso responsável da Inteligência Artificial.
 
 ## 📅 Registro
 
 **Projeto:** Meu Primeiro Currículo  
-**Programa:** PMT – Programa de Preparação para o Mundo do Trabalho  
+**Ano:** 2026  
 **Público:** 14–17 anos  
 **Versão validada:** 1.0  
 **Versão em planejamento:** 2.0  
-**Registro do semestre:** `docs/semestre-2026.md`
+**Registro do projeto:** `docs/semestre-2026.md`
