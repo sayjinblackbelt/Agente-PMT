@@ -13,6 +13,11 @@ O **Meu Primeiro Currículo** é um agente educacional de IA para apoiar jovens 
 - [Plano de testes](docs/testes.md) — cenários e critérios de validação.
 - [Registro do semestre](docs/semestre-2026.md) — histórico do desenvolvimento, atividades, implementação, testes, resultados e próximos passos.
 
+## Atividades pedagógicas
+
+- [Criação de Prompt pelo Educando](projects/atividade-prompt-educando/README.md) — proposta, objetivos e metodologia da atividade.
+- [Exemplo de Prompt Produzido por Educando](projects/atividade-prompt-educando/prompt-educando-sanitizado.md) — exemplo sanitizado para preservar a privacidade do estudante.
+
 ## Fluxo de desenvolvimento
 
 ```text
