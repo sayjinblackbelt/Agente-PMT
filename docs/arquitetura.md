@@ -1,97 +1,161 @@
-# Arquitetura — Meu Primeiro Currículo
+# Arquitetura — Agente PMT
 
 ## 1. Visão geral
 
-O **Meu Primeiro Currículo** é um agente educacional de Inteligência Artificial desenvolvido no contexto do Programa de Preparação para o Mundo do Trabalho (PMT), destinado principalmente a jovens de 14 a 17 anos em busca da primeira oportunidade profissional.
+O **Agente PMT** é uma arquitetura educacional de Inteligência Artificial composta por três agentes especializados:
 
-O projeto separa a construção da solução em duas funções:
+1. **Agente Carreira** — currículo, entrevistas e processos seletivos.
+2. **Agente Estudos** — aprendizagem, estudos e desenvolvimento acadêmico.
+3. **Agente Administração Digital** — autonomia em Microsoft Office, Google Workspace e LibreOffice.
 
-- **ChatGPT:** planejamento, arquitetura, diretrizes, fluxo e Prompt Mestre.
-- **Google Gemini:** implementação do agente e testes de uso.
+A mudança transforma o projeto de um agente único de currículo em uma plataforma conceitual de **preparação integral para o mundo do trabalho**.
 
-Fluxo conceitual:
+## 2. Arquitetura
 
 ```text
-ChatGPT
-  ↓
-Arquitetura + diretrizes
-  ↓
-Prompt Mestre
-  ↓
-Google Gemini
-  ↓
-Agente "Meu Primeiro Currículo"
-  ↓
-Estudante
+                         AGENTE PMT
+                              │
+             ┌────────────────┼────────────────┐
+             ↓                ↓                ↓
+       AGENTE CARREIRA   AGENTE ESTUDOS   AGENTE ADM. DIGITAL
+             │                │                │
+       currículo         aprendizagem       produtividade
+       entrevista        exercícios          Office
+       vagas             projetos            Workspace
+       seleção            revisão             LibreOffice
 ```
 
-## 2. Problema educacional
+## 3. Agente Carreira
 
-Muitos jovens em início de carreira possuem pouca ou nenhuma experiência profissional formal e têm dificuldade para reconhecer, organizar e comunicar suas próprias competências. O agente deve transformar essa dificuldade em uma oportunidade de aprendizagem.
+### Missão
+Preparar o estudante para processos de entrada no mundo do trabalho.
 
-O currículo é tratado como resultado de um processo de reflexão, e não como um formulário que a IA simplesmente preenche.
+### Funções
+- entrevista diagnóstica;
+- currículo;
+- adaptação para vagas;
+- apresentação profissional;
+- simulação de entrevista;
+- preparação para processos seletivos;
+- identificação de competências;
+- análise de requisitos.
 
-## 3. Objetivo
+### Limite
+Não inventa informações, não promete emprego e não decide a carreira do estudante.
 
-Orientar o estudante na construção de um currículo de início de carreira, ajudando-o a reconhecer formação, experiências, conhecimentos, competências e objetivos profissionais, mantendo fidelidade às informações fornecidas.
+## 4. Agente Estudos
 
-## 4. Papéis do agente
+### Missão
+Ajudar o estudante a aprender, organizar estudos e desenvolver autonomia intelectual.
 
-O agente atua como:
+### Funções
+- diagnóstico de dificuldades;
+- plano de estudos;
+- explicações;
+- exercícios;
+- revisão;
+- projetos;
+- preparação para avaliações;
+- acompanhamento de metas;
+- técnicas de estudo.
 
-- entrevistador;
-- orientador;
-- organizador de informações;
-- facilitador de autoconhecimento;
-- revisor de linguagem;
-- adaptador do currículo para vagas.
+### Limite
+Evita substituir o esforço cognitivo do estudante. Sempre que possível, conduz por perguntas, exemplos e prática.
 
-Não atua como recrutador, não garante emprego e não deve tomar decisões profissionais pelo estudante.
+## 5. Agente Administração Digital
 
-## 5. Princípios de projeto
+### Missão
+Desenvolver competência prática para tarefas administrativas e de produtividade digital.
 
-### Autonomia
+### Ecossistemas
 
-O estudante deve participar da construção das respostas e compreender as escolhas feitas.
+**Microsoft Office**
+- Word
+- Excel
+- PowerPoint
+- Outlook
+- ferramentas relacionadas
 
-### Maiêutica
+**Google Workspace**
+- Docs
+- Sheets
+- Slides
+- Drive
+- Forms
+- Gmail
+- Calendar
+- ferramentas relacionadas
 
-Perguntas orientadoras são usadas para ajudar o estudante a descobrir informações sobre si mesmo.
+**LibreOffice**
+- Writer
+- Calc
+- Impress
+- ferramentas relacionadas
 
-### Saneamento mental
+### Funções
+- documentos;
+- planilhas;
+- apresentações;
+- e-mail;
+- formulários;
+- arquivos;
+- calendários;
+- colaboração;
+- organização administrativa;
+- produtividade.
 
-O agente organiza pensamentos e experiências antes de convertê-los em texto profissional.
+### Princípio técnico
+O objetivo é ensinar **competências transferíveis**, evitando dependência de uma única marca ou plataforma.
 
-### Veracidade
+## 6. Camada comum
 
-A linguagem pode ser profissionalizada, mas a realidade não pode ser alterada.
+Os três agentes compartilham:
 
-### Privacidade
+- princípios pedagógicos;
+- segurança;
+- privacidade;
+- veracidade;
+- linguagem adequada;
+- autonomia;
+- registro de aprendizagem;
+- avaliação.
 
-São solicitadas apenas informações necessárias ao objetivo do currículo.
+## 7. Pedagogia
 
-## 6. Modelo de transformação
+O projeto utiliza princípios da Pedagogia Heulosófica:
 
 ```text
-Experiência → Ação → Aprendizado → Competência → Comunicação profissional
+Perguntar
+   ↓
+Organizar
+   ↓
+Refletir
+   ↓
+Praticar
+   ↓
+Confirmar
+   ↓
+Aprender
+   ↓
+Aplicar
 ```
 
-Exemplo: uma atividade escolar pode revelar organização, colaboração ou resolução de problemas quando o estudante explica o que fez, qual era sua responsabilidade e o que aprendeu.
-
-## 7. Componentes documentais
-
-- `README.md` — apresentação pública do projeto.
-- `index.md` — índice e mapa da documentação.
-- `docs/arquitetura.md` — arquitetura e decisões do projeto.
-- `docs/prompt-mestre.md` — instrução principal para implementação do agente.
-- `docs/diretrizes-pedagogicas.md` — princípios pedagógicos.
-- `docs/fluxo-do-agente.md` — estados e comportamento operacional.
-- `docs/testes.md` — plano e registro de testes.
-
-## 8. Evolução prevista
-
-A versão inicial é conceitual e deve passar por testes com diferentes perfis de estudantes antes de ser considerada estável. O projeto deve evoluir por ciclos:
+## 8. Evolução
 
 ```text
-Construir → Testar → Observar → Corrigir → Testar novamente
+Agente único de currículo
+          ↓
+Arquitetura de três agentes
+          ↓
+Prompts independentes
+          ↓
+Testes individuais
+          ↓
+Integração
+          ↓
+Piloto PMT
+          ↓
+Avaliação
+          ↓
+Versão 2.0
 ```
