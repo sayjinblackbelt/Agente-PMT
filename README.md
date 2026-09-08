@@ -171,3 +171,5 @@ O agente pode apoiar atividades relacionadas a:
 
 GitHub: https://github.com/sayjinblackbelt  
 Repository: https://github.com/sayjinblackbelt/2026_Professional_Projects_Meu_Primeiro_Curriculo
+
+<!-- CI trigger: project validation -->
