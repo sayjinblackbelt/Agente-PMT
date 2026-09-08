@@ -118,12 +118,13 @@ A IA funciona como **mediadora da aprendizagem e do desenvolvimento**, não como
 - [x] Conceito inicial de agente de currículo
 - [x] Validação prática inicial
 - [x] Definição da arquitetura de três agentes
-- [ ] Especificação detalhada do Agente Carreira
+- [x] Especificação detalhada do Agente Carreira
 - [ ] Especificação detalhada do Agente Estudos
 - [ ] Especificação detalhada do Agente Administração Digital
 - [ ] Prompts independentes dos três agentes
 - [ ] Base comum de regras e segurança
-- [ ] Testes individuais
+- [x] Definição dos testes individuais
+- [ ] Execução dos testes individuais
 - [ ] Testes de integração
 - [ ] Piloto PMT
 - [ ] Avaliação pedagógica
@@ -152,3 +153,5 @@ Repository: https://github.com/sayjinblackbelt/2026_Professional_Projects_Meu_Pr
 <!-- CI trigger: three-agent prompt validation -->
 
 <!-- CI trigger: final three-agent validation -->
+
+<!-- CI trigger: career agent specification -->
