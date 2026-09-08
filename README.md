@@ -124,6 +124,7 @@ A IA funciona como **mediadora da aprendizagem e do desenvolvimento**, não como
 - [ ] Prompts independentes dos três agentes
 - [ ] Base comum de regras e segurança
 - [x] Definição dos testes individuais
+- [x] Casos reais e matriz de avaliação
 - [ ] Execução dos testes individuais
 - [ ] Testes de integração
 - [ ] Piloto PMT
@@ -161,3 +162,5 @@ Repository: https://github.com/sayjinblackbelt/2026_Professional_Projects_Meu_Pr
 <!-- CI trigger: digital administration agent specification -->
 
 <!-- CI trigger: operational agent prompts -->
+
+<!-- CI trigger: PMT v1 test protocol -->
