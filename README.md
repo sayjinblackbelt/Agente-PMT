@@ -119,7 +119,7 @@ A IA funciona como **mediadora da aprendizagem e do desenvolvimento**, não como
 - [x] Validação prática inicial
 - [x] Definição da arquitetura de três agentes
 - [x] Especificação detalhada do Agente Carreira
-- [ ] Especificação detalhada do Agente Estudos
+- [x] Especificação detalhada do Agente Estudos
 - [ ] Especificação detalhada do Agente Administração Digital
 - [ ] Prompts independentes dos três agentes
 - [ ] Base comum de regras e segurança
@@ -155,3 +155,5 @@ Repository: https://github.com/sayjinblackbelt/2026_Professional_Projects_Meu_Pr
 <!-- CI trigger: final three-agent validation -->
 
 <!-- CI trigger: career agent specification -->
+
+<!-- CI trigger: study agent specification -->
