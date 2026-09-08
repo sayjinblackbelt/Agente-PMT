@@ -33,10 +33,22 @@ jobs:
 
       - name: Validate repository structure
         run: |
+          set -euo pipefail
           test -s index.md
           test -d docs
           test -d projects
-          find docs projects -type f -name '*.md' | grep -q .
+          test -d prompts
+          find docs projects prompts -type f -name '*.md' | grep -q .
+
+      - name: Validate agent prompts
+        run: |
+          set -euo pipefail
+          for file in prompts/README.md prompts/camada-comum.md prompts/agente-carreira.md prompts/agente-estudos.md prompts/agente-administracao-digital.md; do
+            test -s "$file"
+          done
+          grep -qi "currículo\|curriculum\|currículum" prompts/agente-carreira.md
+          grep -qi "estudos\|studies\|estudios" prompts/agente-estudos.md
+          grep -qi "Office\|Workspace\|LibreOffice" prompts/agente-administracao-digital.md
 
       - name: Privacy guard
         run: |
