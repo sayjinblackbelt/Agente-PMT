@@ -1,177 +1,150 @@
-# 🤖 Meu Primeiro Currículo
+# 🤖 Agente PMT — Três Agentes para Preparação, Aprendizagem e Autonomia Digital
 
 🇧🇷 Português | [🇺🇸 English](README.en.md) | [🇪🇸 Español](README.es.md)
 
-> Projeto real de Inteligência Artificial aplicada à educação e à preparação de jovens para a primeira oportunidade profissional.
+> Projeto de Inteligência Artificial do Programa de Preparação para o Mundo do Trabalho (PMT), organizado em três agentes especializados para desenvolvimento profissional, estudos e produtividade digital.
 
-## 📌 Sobre
+## 🎯 Visão do projeto
 
-**Meu Primeiro Currículo** é um projeto educacional desenvolvido para apoiar jovens de **14 a 17 anos** na construção do primeiro currículo profissional.
+O **Agente PMT** deixa de ser um único agente de currículo e passa a ser uma **arquitetura educacional com três agentes complementares**:
 
-O projeto utiliza Inteligência Artificial como ferramenta de apoio à **empregabilidade, autonomia, autoconhecimento e comunicação profissional**.
+### 1. 💼 Agente Carreira
 
-O agente foi concebido para ajudar estudantes que estão buscando sua primeira oportunidade profissional, especialmente vagas de **Jovem Aprendiz**.
+Acompanha o jovem na preparação para a primeira oportunidade profissional.
 
-A proposta não é simplesmente gerar um currículo. O estudante é conduzido por um processo de:
+Funções:
+- construir e revisar currículo;
+- identificar competências e experiências reais;
+- adaptar currículo a vagas;
+- preparar apresentação profissional;
+- simular entrevistas;
+- preparar respostas para processos seletivos;
+- analisar requisitos de vagas;
+- orientar postura e comunicação profissional.
 
-**Conhecer → Perguntar → Aprofundar → Refletir → Organizar → Confirmar → Escrever → Revisar → Adaptar**
+**Princípio:** profissionalizar a comunicação sem inventar informações.
 
-## 🎯 Objetivo
+### 2. 📚 Agente Estudos
 
-O projeto busca ajudar o estudante a:
+Apoia o estudante no processo de aprendizagem e organização dos estudos.
 
-- reconhecer suas competências;
-- identificar experiências relevantes;
-- organizar formação e conhecimentos;
-- desenvolver comunicação profissional;
-- construir um currículo claro e verdadeiro;
-- adaptar o currículo a diferentes oportunidades;
-- utilizar Inteligência Artificial de maneira responsável.
+Funções:
+- planejamento de estudos;
+- explicação de conteúdos;
+- criação de exercícios;
+- revisão e recuperação de aprendizagem;
+- organização de trabalhos e projetos;
+- técnicas de estudo;
+- preparação para avaliações;
+- acompanhamento de objetivos;
+- transformação de dúvidas em planos de aprendizagem.
 
-## 🧠 Princípio central
+**Princípio:** a IA deve ensinar o estudante a aprender, não apenas entregar respostas.
 
-> **A IA não deve apenas produzir o currículo; deve ajudar o jovem a compreender quem ele é, o que sabe fazer e como comunicar isso de forma responsável.**
+### 3. 🖥️ Agente Administração Digital
 
-Por isso, o agente atua como **orientador, entrevistador, organizador e revisor**.
+Desenvolve autonomia para utilização profissional das principais ferramentas de produtividade.
 
-## 👥 Público-alvo
+Abrange:
+- **Microsoft Office:** Word, Excel, PowerPoint, Outlook e ferramentas relacionadas;
+- **Google Workspace:** Docs, Sheets, Slides, Drive, Forms, Gmail, Calendar e ferramentas relacionadas;
+- **LibreOffice:** Writer, Calc, Impress e ferramentas relacionadas.
 
-Jovens de **14 a 17 anos** em processo de preparação para a primeira oportunidade profissional.
+Funções:
+- criação e formatação de documentos;
+- planilhas e organização de dados;
+- apresentações;
+- e-mail profissional;
+- armazenamento e organização de arquivos;
+- formulários;
+- agendas e calendários;
+- colaboração;
+- produtividade digital;
+- resolução de tarefas administrativas.
 
-## 🛠️ Tecnologias e construção
+**Princípio:** desenvolver autonomia tecnológica transferível entre diferentes suítes de escritório.
 
-O projeto combina planejamento pedagógico, engenharia de prompts e ferramentas de Inteligência Artificial:
-
-### Arquitetura e planejamento
-
-Utilização de IA para definição da arquitetura, fluxos, diretrizes, regras e documentação do projeto.
-
-### Implementação e testes
-
-Utilização de ferramentas de IA generativa para implementação do agente, criação do GEM e realização de testes práticos.
-
-### Fluxo
+## 🧠 Arquitetura
 
 ```text
-Planejamento
-   ↓
-Arquitetura e diretrizes
-   ↓
-Prompt Mestre
-   ↓
-Implementação do agente
-   ↓
-Testes práticos
-   ↓
-Estudante
+                         AGENTE PMT
+                              │
+             ┌────────────────┼────────────────┐
+             ↓                ↓                ↓
+       💼 CARREIRA       📚 ESTUDOS      🖥️ ADM. DIGITAL
+             │                │                │
+       Empregabilidade    Aprendizagem     Produtividade
+       Currículo          Estudos          Office
+       Entrevista         Exercícios       Workspace
+       Seleção            Projetos         LibreOffice
 ```
+
+Os três agentes compartilham princípios pedagógicos, mas possuem **missões, fluxos e critérios de qualidade próprios**.
 
 ## 🧭 Abordagem pedagógica
 
-O projeto incorpora princípios da **Pedagogia Heulosófica**, especialmente:
+O projeto incorpora princípios da **Pedagogia Heulosófica**:
+- Maiêutica;
+- saneamento mental;
+- autoconhecimento;
+- autonomia;
+- reflexão;
+- organização do pensamento;
+- responsabilidade sobre as próprias escolhas.
 
-- **Maiêutica:** perguntas orientadoras para estimular a construção das próprias respostas.
-- **Saneamento mental:** organização de pensamentos e experiências antes da produção do currículo.
-- **Autoconhecimento:** identificação de conhecimentos, experiências e competências.
-- **Autonomia:** participação ativa do estudante na construção do documento.
-- **Reflexão:** compreensão do que foi aprendido e de como isso pode ser comunicado profissionalmente.
+A IA funciona como **mediadora da aprendizagem e do desenvolvimento**, não como substituta do estudante.
 
-## 🔄 Lógica de construção
+## 🛡️ Segurança e responsabilidade
 
-```text
-Experiência
-    ↓
-Ação
-    ↓
-Aprendizado
-    ↓
-Competência
-    ↓
-Comunicação profissional
-```
-
-## 🛡️ Veracidade e responsabilidade
-
-> **Profissionalizar a linguagem sem alterar a realidade.**
-
-O agente não deve inventar experiências, cursos, certificados, competências ou resultados. Quando uma informação estiver incompleta, deve perguntar.
-
-Como o público inclui adolescentes, o projeto adota cuidados específicos com **privacidade, proteção de dados e uso responsável da Inteligência Artificial**.
+- Não inventar experiências, competências, certificados ou resultados.
+- Não tomar decisões profissionais pelo estudante.
+- Não substituir professores, responsáveis ou orientação profissional humana.
+- Minimizar coleta de dados pessoais.
+- Não solicitar senhas ou credenciais.
+- Ensinar uso responsável da IA.
+- Separar orientação de informação factual de decisões que exigem julgamento humano.
 
 ## 📚 Documentação
 
-A documentação está organizada no [índice do projeto](index.md):
-
 - [Arquitetura](docs/arquitetura.md)
 - [Diretrizes pedagógicas](docs/diretrizes-pedagogicas.md)
-- [Fluxo do agente](docs/fluxo-do-agente.md)
+- [Fluxo dos agentes](docs/fluxo-do-agente.md)
 - [Prompt Mestre](docs/prompt-mestre.md)
 - [Plano de testes](docs/testes.md)
 - [Registro do semestre](docs/semestre-2026.md)
 
-## 🧪 Validação da versão 1.0
+## 🏗️ Roadmap
 
-A versão 1.0 foi utilizada em **testes práticos com educandos**, incluindo utilização pelos próprios estudantes e testes realizados com outros educandos.
-
-O agente funcionou adequadamente para a finalidade proposta e foi considerado apto para evolução para a versão 2.0.
-
-## 🏗️ Status do projeto
-
-**Versão validada:** 1.0  
-**Próxima versão:** 2.0 em planejamento  
-**Status:** 🟡 Evolução a partir de validação prática
-
-### Progresso
-
-- [x] Definição do projeto
-- [x] Definição do público
-- [x] Arquitetura conceitual
-- [x] Diretrizes pedagógicas
-- [x] Regras e limites
-- [x] Fluxo operacional
-- [x] Prompt Mestre
-- [x] Documentação inicial
-- [x] Implementação do agente
-- [x] Testes práticos com educandos
-- [x] Registro do semestre
-- [ ] Especificação da versão 2.0
-- [ ] Novos testes
-- [ ] Piloto estruturado
+- [x] Conceito inicial de agente de currículo
+- [x] Validação prática inicial
+- [x] Definição da arquitetura de três agentes
+- [ ] Especificação detalhada do Agente Carreira
+- [ ] Especificação detalhada do Agente Estudos
+- [ ] Especificação detalhada do Agente Administração Digital
+- [ ] Prompts independentes dos três agentes
+- [ ] Base comum de regras e segurança
+- [ ] Testes individuais
+- [ ] Testes de integração
+- [ ] Piloto PMT
 - [ ] Avaliação pedagógica
-- [ ] Refinamento
-- [ ] Versão final
+- [ ] Versão 2.0
 
-## 💼 Aplicações educacionais
+## 👥 Público
 
-O agente pode apoiar atividades relacionadas a:
-
-- currículo de Jovem Aprendiz;
-- Google Docs;
-- comunicação profissional;
-- e-mail;
-- pesquisa de vagas;
-- preparação para entrevistas;
-- apresentação profissional;
-- uso responsável da Inteligência Artificial.
+Principalmente jovens do PMT, com foco em preparação para o mundo do trabalho, aprendizagem e desenvolvimento da autonomia digital.
 
 ## 📅 Registro
 
-**Projeto:** Meu Primeiro Currículo  
+**Projeto:** Agente PMT  
 **Ano:** 2026  
-**Público:** 14–17 anos  
-**Versão validada:** 1.0  
-**Versão em planejamento:** 2.0  
-**Registro do projeto:** `docs/semestre-2026.md`
+**Arquitetura:** 3 agentes especializados  
+**Status:** 🟡 Em reestruturação arquitetural
 
 ---
 
-## Author
+## Autor
 
 **Filipe G Morais**
 
 GitHub: https://github.com/sayjinblackbelt  
 Repository: https://github.com/sayjinblackbelt/2026_Professional_Projects_Meu_Primeiro_Curriculo
-
-<!-- CI trigger: project validation -->
-
-<!-- CI trigger: final identity validation -->
