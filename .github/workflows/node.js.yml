@@ -69,3 +69,14 @@ jobs:
           grep -q "Agente Carreira" docs/formato-de-teste-integrado.md
           grep -q "Agente Estudos" docs/formato-de-teste-integrado.md
           grep -q "Agente Administração Digital" docs/formato-de-teste-integrado.md
+
+
+      - name: Validate test suite
+        run: |
+          set -euo pipefail
+          test -s tests/casos-reais.md
+          test -s docs/matriz-avaliacao.md
+          test -s docs/protocolo-teste-v1.md
+          for case in "C1" "C2" "C3" "C4" "C5" "C6" "C7" "C8"; do grep -q "$case" tests/casos-reais.md; done
+          grep -q "16" docs/matriz-avaliacao.md
+          grep -q "falha crítica" docs/protocolo-teste-v1.md
