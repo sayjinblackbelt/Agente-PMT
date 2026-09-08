@@ -121,3 +121,13 @@ El agente puede apoyar actividades relacionadas con:
 **Público:** 14–17 años  
 **Versión validada:** 1.0  
 **Versión en planificación:** 2.0  
+
+
+---
+
+## Author / Autor
+
+**Filipe G Morais**
+
+GitHub: https://github.com/sayjinblackbelt  
+Repository: https://github.com/sayjinblackbelt/2026_Professional_Projects_Meu_Primeiro_Curriculo
