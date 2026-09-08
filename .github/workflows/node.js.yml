@@ -22,13 +22,13 @@ jobs:
             grep -q "github.com/sayjinblackbelt" "$file"
           done
 
-      - name: Validate documentation links
+      - name: Validate documentation references
         run: |
           set -euo pipefail
           for file in README.md README.en.md README.es.md; do
-            grep -oE 'docs/[A-Za-z0-9_./-]+\.md' "$file" | while read -r target; do
+            while read -r target; do
               test -f "$target" || { echo "Missing: $target"; exit 1; }
-            done
+            done < <(grep -oE 'docs/[A-Za-z0-9_./-]+\.md' "$file" || true)
           done
 
       - name: Validate repository structure
