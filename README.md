@@ -159,3 +159,5 @@ Repository: https://github.com/sayjinblackbelt/2026_Professional_Projects_Meu_Pr
 <!-- CI trigger: study agent specification -->
 
 <!-- CI trigger: digital administration agent specification -->
+
+<!-- CI trigger: operational agent prompts -->
