@@ -56,3 +56,16 @@ jobs:
             echo "Potential secret detected."
             exit 1
           fi
+
+
+      - name: Validate operational prompts
+        run: |
+          set -euo pipefail
+          for file in prompts/agente-carreira-final.md prompts/agente-estudos-final.md prompts/agente-administracao-digital-final.md docs/formato-de-teste-integrado.md; do test -s "$file"; done
+          grep -qi "currículo\|curriculum\|currículum" prompts/agente-carreira-final.md
+          grep -qi "Estudos\|Studies\|Estudios" prompts/agente-estudos-final.md
+          grep -q "Google Workspace" prompts/agente-administracao-digital-final.md
+          grep -q "LibreOffice" prompts/agente-administracao-digital-final.md
+          grep -q "Agente Carreira" docs/formato-de-teste-integrado.md
+          grep -q "Agente Estudos" docs/formato-de-teste-integrado.md
+          grep -q "Agente Administração Digital" docs/formato-de-teste-integrado.md
