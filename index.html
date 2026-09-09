@@ -1,44 +1,41 @@
 <!doctype html>
-<html lang="pt-BR">
-<head>
+<html lang="pt-BR"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Agente PMT — Três agentes para o mundo do trabalho</title>
+<title>Agente PMT | Preparação para o Mundo do Trabalho</title>
+<meta name="description" content="Assistente educacional do PMT para carreira, estudos e administração digital.">
 <style>
-:root{--ink:#11181b;--blue:#035aa6;--sky:#4a9ad1;--orange:#ff7c24;--yellow:#ffce00;--red:#ad0626;--bg:#f5f7f9;--card:#fff}
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
-header{background:linear-gradient(135deg,var(--ink),var(--blue));color:#fff;padding:56px 22px}main{max-width:1100px;margin:auto;padding:28px 18px}
-h1{font-size:clamp(2rem,5vw,4rem);margin:0 0 12px}h2{margin-top:0}.tag{display:inline-block;background:var(--yellow);padding:6px 10px;border-radius:999px;font-weight:700;color:var(--ink)}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px}.card{background:var(--card);border-radius:18px;padding:24px;box-shadow:0 5px 20px #00000012;border-top:6px solid var(--blue)}.career{border-color:var(--orange)}.study{border-color:var(--red)}.admin{border-color:var(--sky)}
-ul{padding-left:20px}.btn{display:inline-block;background:var(--blue);color:#fff;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700;margin:4px 4px 0 0}.btn.alt{background:var(--ink)}.flow{background:#fff;padding:22px;border-radius:16px;margin:22px 0;font-weight:700;text-align:center}.status{font-weight:700;color:#18723b}footer{padding:30px 18px;text-align:center;color:#58636a}
-</style>
-</head>
-<body>
-<header><main>
-<span class="tag">PMT • 2026</span>
-<h1>🤖 Agente PMT</h1>
-<p style="font-size:1.25rem;max-width:760px">Uma arquitetura educacional de três agentes para preparar jovens para o mundo do trabalho, fortalecer a aprendizagem e desenvolver autonomia digital.</p>
-<p><strong>Filipe G Morais</strong></p>
-</main></header>
-<main>
-<section>
-<h2>Os três agentes</h2>
-<div class="grid">
-<article id="carreira" class="card career"><h2>💼 Carreira</h2><p>Currículo, vagas, apresentação profissional, entrevistas e processos seletivos.</p><ul><li>Currículo verdadeiro e adaptado</li><li>Análise de vagas</li><li>Simulação de entrevistas</li><li>Plano de preparação</li></ul><a class="btn" href="docs/agente-carreira-especificacao.md">Especificação</a><a class="btn alt" href="prompts/agente-carreira-final.md">Prompt</a></article>
-<article id="estudos" class="card study"><h2>📚 Estudos</h2><p>Aprendizagem, organização dos estudos e desenvolvimento da autonomia intelectual.</p><ul><li>Diagnóstico e planejamento</li><li>Exercícios e revisão</li><li>Projetos e avaliações</li><li>Transferência do conhecimento</li></ul><a class="btn" href="docs/agente-estudos-especificacao.md">Especificação</a><a class="btn alt" href="prompts/agente-estudos-final.md">Prompt</a></article>
-<article id="administracao" class="card admin"><h2>🖥️ Administração Digital</h2><p>Competências profissionais em Microsoft Office, Google Workspace e LibreOffice.</p><ul><li>Documentos e planilhas</li><li>Apresentações e e-mail</li><li>Arquivos e formulários</li><li>Colaboração e produtividade</li></ul><a class="btn" href="docs/agente-administracao-digital-especificacao.md">Especificação</a><a class="btn alt" href="prompts/agente-administracao-digital-final.md">Prompt</a></article>
+*{box-sizing:border-box}body{margin:0;background:#eef3f7;color:#11181b;font:16px/1.5 Arial,sans-serif}.app{max-width:820px;height:100vh;height:100dvh;margin:auto;background:#fff;display:flex;flex-direction:column;box-shadow:0 0 30px #0001}
+header{padding:16px 18px;background:#035aa6;color:#fff;display:flex;align-items:center;gap:12px}header h1{font-size:20px;margin:0}header small{opacity:.9}.brand{width:44px;height:44px;border-radius:14px;background:#ffce00;color:#11181b;display:grid;place-items:center;font-size:23px;font-weight:bold}
+#chat{flex:1;overflow:auto;padding:20px 16px;background:#f7f9fb}.msg{max-width:88%;padding:12px 15px;border-radius:17px;margin:9px 0;white-space:pre-wrap}.bot{background:#fff;border:1px solid #dce5eb;border-bottom-left-radius:5px}.user{margin-left:auto;background:#035aa6;color:#fff;border-bottom-right-radius:5px}.choices{display:flex;flex-wrap:wrap;gap:9px;margin:12px 0 18px}.choice{border:2px solid #035aa6;background:#fff;color:#035aa6;border-radius:12px;padding:10px 13px;font-weight:bold;cursor:pointer}.choice:hover{background:#eaf4fc}.system{font-size:13px;color:#59656b;text-align:center;margin:12px}
+footer{padding:12px;border-top:1px solid #ddd;background:#fff}.links{text-align:center;font-size:12px;margin-top:8px}.links a{color:#035aa6}.hidden{display:none}
+</style></head>
+<body><div class="app">
+<header><div class="brand">PM</div><div><h1>Agente PMT</h1><small>Preparação para o Mundo do Trabalho</small></div></header>
+<main id="chat"></main>
+<footer><div id="actions"></div><div class="links">Demonstração educacional • sem coleta de dados • <a href="https://github.com/sayjinblackbelt/2026_Professional_Projects_Meu_Primeiro_Curriculo">GitHub</a></div></footer>
 </div>
-</section>
-<section class="card" style="margin-top:18px"><h2>🚀 Escolha seu caminho</h2>
-<p>Comece pelo objetivo que você precisa alcançar. O agente selecionado orientará o próximo passo e poderá encaminhar você para outro agente quando necessário.</p>
-<div class="grid">
-<article class="card career"><h3>💼 Quero me preparar para uma vaga</h3><p>Currículo, vaga, apresentação ou entrevista.</p><a class="btn" href="#carreira">Começar Carreira</a></article>
-<article class="card study"><h3>📚 Quero aprender algo</h3><p>Planejamento, exercícios, revisão ou projeto.</p><a class="btn" href="#estudos">Começar Estudos</a></article>
-<article class="card admin"><h3>🖥️ Quero realizar uma tarefa digital</h3><p>Documento, planilha, apresentação, e-mail ou organização.</p><a class="btn" href="#administracao">Começar Administração</a></article>
-</div></section>
-<section class="flow"><h2>🔄 Como trabalham juntos</h2><p>Necessidade → <strong>Carreira</strong> → <strong>Administração Digital</strong> → <strong>Estudos</strong> → <strong>Carreira / Entrevista</strong></p><p>O contexto é compartilhado somente quando necessário, preservando a missão de cada agente.</p></section>
-<section class="card"><h2>🧠 Base pedagógica</h2><p>Maiêutica • saneamento mental • organização do pensamento • autoconhecimento • autonomia • reflexão • prática.</p><p><strong>Princípio:</strong> a IA deve aumentar a capacidade do estudante de agir sozinho.</p></section>
-<section class="card" style="margin-top:18px"><h2>🧪 Validação</h2><p class="status">● CI verde</p><p>Arquitetura, prompts operacionais, casos de teste e documentação estão versionados no GitHub.</p><a class="btn" href="tests/casos-reais.md">Casos de teste</a><a class="btn alt" href="docs/matriz-avaliacao.md">Matriz de avaliação</a></section>
-<section style="margin-top:26px"><a class="btn" href="README.md">Documentação PT</a><a class="btn" href="README.en.md">English</a><a class="btn" href="README.es.md">Español</a><a class="btn alt" href="https://github.com/sayjinblackbelt/2026_Professional_Projects_Meu_Primeiro_Curriculo">GitHub</a></section>
-</main>
-<footer>Agente PMT • Preparação para o Mundo do Trabalho • Filipe G Morais</footer>
-</body></html>
+<script>
+const chat=document.getElementById('chat'),actions=document.getElementById('actions');let area=null,step=0,answers=[];
+const flows={
+carreira:{name:'💼 Carreira',intro:'Vamos preparar você para o mundo do trabalho. Vou fazer algumas perguntas e, com suas respostas, organizar o próximo passo.',qs:[
+['Qual é seu objetivo agora?',['Criar meu primeiro currículo','Analisar uma vaga','Treinar entrevista','Preparar processo seletivo']],
+['Você já tem alguma experiência, projeto, curso ou atividade que gostaria de apresentar?',['Sim','Ainda não','Não sei o que conta como experiência']],
+['Qual é seu próximo passo mais importante?',['Montar currículo','Entender uma vaga','Praticar entrevista','Criar um plano de preparação']]]},
+estudos:{name:'📚 Estudos',intro:'Vamos transformar sua necessidade em um plano de aprendizagem. Primeiro entendemos o objetivo; depois praticamos.',qs:[
+['O que você quer aprender ou melhorar?',['Informática','Matemática','Comunicação','Outro assunto']],
+['Como você se sente com esse conteúdo hoje?',['Estou começando','Sei o básico','Já pratico, mas tenho dificuldades','Quero aprofundar']],
+['O que você precisa alcançar?',['Aprender o básico','Fazer uma atividade','Preparar uma avaliação','Aplicar na prática']]]},
+admin:{name:'🖥️ Administração Digital',intro:'Vou ajudar você a realizar uma tarefa e aprender a lógica por trás dela. Você poderá usar Office, Google Workspace ou LibreOffice.',qs:[
+['O que você precisa fazer?',['Documento','Planilha','Apresentação','E-mail/agenda','Organizar arquivos']],
+['Qual ferramenta você vai usar?',['Microsoft Office','Google Workspace','LibreOffice','Não sei ainda']],
+['Você já sabe realizar essa tarefa?',['Sim, mas quero melhorar','Sei um pouco','Estou começando','Nunca fiz']]]}
+};
+function add(text,who='bot'){let d=document.createElement('div');d.className='msg '+who;d.textContent=text;chat.appendChild(d);chat.scrollTop=chat.scrollHeight}
+function buttons(items,fn){actions.innerHTML='';let box=document.createElement('div');box.className='choices';items.forEach(x=>{let b=document.createElement('button');b.className='choice';b.textContent=x;b.onclick=()=>{actions.innerHTML='';fn(x)};box.appendChild(b)});actions.appendChild(box)}
+function home(){area=null;step=0;answers=[];add('Olá! 👋\nEu sou o Agente PMT, um assistente demonstrativo para ajudar você a desenvolver autonomia para o mundo do trabalho.\n\nEscolha uma área para começar:');buttons(['💼 Carreira','📚 Estudos','🖥️ Administração Digital'],x=>start(x))}
+function start(x){area=x.startsWith('💼')?'carreira':x.startsWith('📚')?'estudos':'admin';step=0;answers=[];add(flows[area].name,'user');add(flows[area].intro);ask()}
+function ask(){let q=flows[area].qs[step];add(q[0]);buttons(q[1],answer)}
+function answer(x){answers.push(x);add(x,'user');step++;if(step<flows[area].qs.length){setTimeout(ask,250)}else finish()}
+function finish(){const f=flows[area];let next=area==='carreira'?'Agora eu organizaria suas informações e iniciaria '+answers[0].toLowerCase()+'.':area==='estudos'?'Agora eu montaria um pequeno plano: objetivo → conteúdo → prática → verificação.':'Agora eu orientaria a tarefa passo a passo e, quando possível, mostraria como fazer o mesmo em outra ferramenta.';add('Ótimo. ✅\n\n'+next+'\n\nEsta é uma demonstração do fluxo pedagógico. A versão completa poderá conectar este roteiro aos prompts e agentes do projeto.');buttons(['🔄 Começar outra área','🏠 Voltar ao início'],x=>{chat.innerHTML='';home()})}
+home();
+</script></body></html>
