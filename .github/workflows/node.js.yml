@@ -80,3 +80,15 @@ jobs:
           for case in "C1" "C2" "C3" "C4" "C5" "C6" "C7" "C8"; do grep -q "$case" tests/casos-reais.md; done
           grep -q "16" docs/matriz-avaliacao.md
           grep -q "falha crítica" docs/protocolo-teste-v1.md
+
+
+      - name: Validate web interface
+        run: |
+          set -euo pipefail
+          test -s index.html
+          grep -q "Agente PMT" index.html
+          grep -q "Carreira" index.html
+          grep -q "Estudos" index.html
+          grep -q "Administração Digital" index.html
+          grep -q "README.en.md" index.html
+          grep -q "README.es.md" index.html
