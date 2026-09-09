@@ -125,7 +125,8 @@ A IA funciona como **mediadora da aprendizagem e do desenvolvimento**, não como
 - [ ] Base comum de regras e segurança
 - [x] Definição dos testes individuais
 - [x] Casos reais e matriz de avaliação
-- [ ] Execução dos testes individuais
+- [x] Execução da validação estrutural C1–C8
+- [ ] Execução dos testes individuais na interface final
 - [ ] Testes de integração
 - [ ] Piloto PMT
 - [ ] Avaliação pedagógica
@@ -166,3 +167,5 @@ Repository: https://github.com/sayjinblackbelt/2026_Professional_Projects_Meu_Pr
 <!-- CI trigger: PMT v1 test protocol -->
 
 <!-- CI trigger: PMT test suite -->
+
+<!-- CI trigger: test results -->
