@@ -1,5 +1,9 @@
 # 🤖 Agente PMT — Três Agentes para Preparação, Aprendizagem e Autonomia Digital
 
+> 🚀 **[ACESSAR O AGENTE PMT — GitHub Pages](https://sayjinblackbelt.github.io/Agente-PMT/)**
+>
+> **Demonstração interativa:** escolha entre Carreira, Estudos e Administração Digital e siga o fluxo guiado.
+
 🇧🇷 Português | [🇺🇸 English](README.en.md) | [🇪🇸 Español](README.es.md)
 
 > Projeto de Inteligência Artificial do Programa de Preparação para o Mundo do Trabalho (PMT), organizado em três agentes especializados para desenvolvimento profissional, estudos e produtividade digital.
@@ -141,7 +145,7 @@ Principalmente jovens do PMT, com foco em preparação para o mundo do trabalho,
 **Projeto:** Agente PMT  
 **Ano:** 2026  
 **Arquitetura:** 3 agentes especializados  
-**Status:** 🟡 Em reestruturação arquitetural
+**Status:** 🟢 Protótipo publicado no GitHub Pages
 
 ---
 
@@ -150,26 +154,6 @@ Principalmente jovens do PMT, com foco em preparação para o mundo do trabalho,
 **Filipe G Morais**
 
 GitHub: https://github.com/sayjinblackbelt  
-Repository: https://github.com/sayjinblackbelt/2026_Professional_Projects_Meu_Primeiro_Curriculo
+Repository: https://github.com/sayjinblackbelt/Agente-PMT
 
-<!-- CI trigger: three-agent prompt validation -->
-
-<!-- CI trigger: final three-agent validation -->
-
-<!-- CI trigger: career agent specification -->
-
-<!-- CI trigger: study agent specification -->
-
-<!-- CI trigger: digital administration agent specification -->
-
-<!-- CI trigger: operational agent prompts -->
-
-<!-- CI trigger: PMT v1 test protocol -->
-
-<!-- CI trigger: PMT test suite -->
-
-<!-- CI trigger: test results -->
-
-<!-- CI trigger: PMT web interface -->
-
-<!-- CI trigger: PMT entry flows -->
+<!-- CI trigger: PMT web interface and Pages link -->
