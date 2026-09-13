@@ -8,6 +8,16 @@
 
 > Projeto de Inteligência Artificial do Programa de Preparação para o Mundo do Trabalho (PMT), organizado em três agentes especializados para desenvolvimento profissional, estudos e produtividade digital.
 
+## 🎨 Identidade visual
+
+O Agente PMT adota uma identidade **dark, digital, jovem e tecnológica**, baseada em fundo azul-marinho profundo, superfícies escuras e acentos luminosos.
+
+**Paleta principal:** `#070B14` · `#0E1725` · `#1787FF` · `#22C7FF` · `#8B5CF6` · `#FF7A18` · `#12D18E` · `#FFD43B`
+
+**Tipografia:** Raleway para interface e textos; Rufina para títulos de destaque.
+
+O logo oficial está em [`logo-pmt.svg`](logo-pmt.svg). A especificação completa está em [`docs/identidade-visual.md`](docs/identidade-visual.md).
+
 ## 🎯 Visão do projeto
 
 O **Agente PMT** deixa de ser um único agente de currículo e passa a ser uma **arquitetura educacional com três agentes complementares**:
@@ -85,7 +95,7 @@ Funções:
 
 Os três agentes compartilham princípios pedagógicos, mas possuem **missões, fluxos e critérios de qualidade próprios**.
 
-## 🧭 Abordagem pedagógica
+## 🧠 Abordagem pedagógica
 
 O projeto incorpora princípios da **Pedagogia Heulosófica**:
 - Maiêutica;
@@ -113,6 +123,7 @@ A IA funciona como **mediadora da aprendizagem e do desenvolvimento**, não como
 - [Arquitetura](docs/arquitetura.md)
 - [Diretrizes pedagógicas](docs/diretrizes-pedagogicas.md)
 - [Fluxo dos agentes](docs/fluxo-do-agente.md)
+- [Identidade visual](docs/identidade-visual.md)
 - [Prompt Mestre](docs/prompt-mestre.md)
 - [Plano de testes](docs/testes.md)
 - [Registro do semestre](docs/semestre-2026.md)
