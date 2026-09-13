@@ -1,1 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc"><title id="title">Logo Agente PMT</title><desc id="desc">Símbolo PMT com capelo e caminhos de aprendizagem.</desc><rect width="120" height="120" rx="28" fill="#ffce00"/><path d="M23 43 60 25l37 18-37 18-37-18Z" fill="#11181b"/><path d="M35 51v22c13 10 37 10 50 0V51L60 63 35 51Z" fill="#11181b"/><path d="M97 44v28" stroke="#11181b" stroke-width="5" stroke-linecap="round"/><circle cx="97" cy="76" r="5" fill="#11181b"/><text x="60" y="101" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="900" fill="#11181b">PMT</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Logo Agente PMT</title>
+  <desc id="desc">Símbolo do Agente PMT: capelo de formatura integrado a caminhos digitais de aprendizagem.</desc>
+  <defs>
+    <linearGradient id="cap" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f9ed1"/>
+      <stop offset="1" stop-color="#1261a0"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6c945"/>
+      <stop offset="1" stop-color="#f36f21"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="144" height="144" rx="34" fill="#0b1f33"/>
+  <path d="M28 56 80 30l52 26-52 26-52-26Z" fill="url(#cap)" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M43 67v28c18 14 56 14 74 0V67L80 86 43 67Z" fill="#123b5d" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M80 84c-7 17-6 30 2 43 7 11 18 16 31 16" fill="none" stroke="url(#path)" stroke-width="11" stroke-linecap="round"/>
+  <path d="M80 85V57" stroke="#f6c945" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="80" cy="50" r="7" fill="#f36f21" stroke="#fff" stroke-width="3"/>
+  <path d="M50 56v-9M110 56v-9" stroke="#2f9ed1" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="50" cy="44" r="6" fill="#2f9ed1" stroke="#fff" stroke-width="3"/>
+  <circle cx="110" cy="44" r="6" fill="#2f9ed1" stroke="#fff" stroke-width="3"/>
+  <path d="M132 57v32" stroke="#f6c945" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="132" cy="96" r="6" fill="#f36f21"/>
+  <text x="80" y="140" text-anchor="middle" font-family="Raleway,Arial,sans-serif" font-size="17" font-weight="900" letter-spacing="1.5" fill="#fff">PMT</text>
+</svg>
