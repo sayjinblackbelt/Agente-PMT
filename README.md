@@ -168,3 +168,138 @@ GitHub: https://github.com/sayjinblackbelt
 Repository: https://github.com/sayjinblackbelt/Agente-PMT
 
 <!-- CI trigger: PMT web interface and Pages link -->
+## Desafio DIO — Assistente Virtual com Inteligência Artificial
+
+Este projeto foi desenvolvido como uma aplicação prática de Inteligência Artificial voltada à educação e à preparação para o mundo do trabalho.
+
+O Agente PMT utiliza agentes especializados para apoiar diferentes necessidades dos educandos:
+
+- **Agente Carreira:** desenvolvimento profissional e preparação para oportunidades;
+- **Agente Estudos:** aprendizagem, organização e revisão;
+- **Agente Administração Digital:** desenvolvimento de competências digitais e produtividade.
+
+### Os 6 passos do projeto
+
+#### 1. Documentação
+
+O comportamento, os objetivos, as responsabilidades e os limites dos agentes estão documentados na pasta `docs/`.
+
+A documentação inclui:
+
+- arquitetura;
+- fluxo de funcionamento;
+- diretrizes pedagógicas;
+- especificações dos agentes;
+- protocolos de teste;
+- matriz de avaliação.
+
+#### 2. Base de conhecimento
+
+A base de conhecimento está organizada em:
+
+`data/base_conhecimento.md`
+
+Ela reúne informações sobre o contexto do projeto, objetivos dos agentes, princípios de funcionamento, fluxo de atendimento e regras para utilização das informações.
+
+#### 3. Prompts
+
+Os prompts dos agentes estão organizados na pasta `prompts/`.
+
+Cada agente possui instruções específicas de acordo com sua função, além de uma camada comum de comportamento.
+
+Os prompts orientam o agente a:
+
+- compreender a necessidade;
+- diagnosticar o contexto;
+- utilizar informações disponíveis;
+- evitar informações inventadas;
+- estimular autonomia;
+- verificar o resultado.
+
+#### 4. Aplicação funcional
+
+O projeto possui uma interface web para apresentação e experimentação dos agentes.
+
+Entre os recursos disponíveis estão:
+
+- apresentação dos agentes;
+- fluxo de funcionamento;
+- demonstração das etapas de atendimento;
+- páginas específicas para os agentes Carreira, Estudos e Administração Digital.
+
+A aplicação pode ser acessada pelo GitHub Pages do projeto.
+
+#### 5. Avaliação e métricas
+
+A avaliação está documentada em `docs/avaliacao.md`.
+
+O projeto utiliza uma matriz baseada em oito critérios:
+
+- veracidade;
+- segurança e privacidade;
+- adequação pedagógica;
+- clareza;
+- autonomia;
+- qualidade da orientação;
+- permanência dentro da missão;
+- qualidade do próximo passo.
+
+Cada critério pode receber de 0 a 2 pontos, totalizando até 16 pontos.
+
+Além da avaliação por critérios, foram estruturados testes individuais e integrados para verificar o comportamento dos agentes.
+
+#### 6. Pitch
+
+### Problema
+
+Jovens em preparação para o mundo do trabalho frequentemente precisam lidar simultaneamente com dúvidas sobre carreira, estudos e ferramentas digitais.
+
+Essas necessidades normalmente aparecem de forma fragmentada e exigem diferentes tipos de orientação.
+
+### Solução
+
+O Agente PMT organiza essas necessidades em uma solução baseada em Inteligência Artificial composta por três agentes especializados.
+
+A proposta é oferecer apoio contextualizado sem substituir o educando.
+
+### Diferencial
+
+O projeto combina Inteligência Artificial com uma abordagem educacional orientada à autonomia.
+
+O agente não deve simplesmente entregar uma resposta. Ele deve compreender a necessidade, contextualizar, diagnosticar, orientar, produzir e verificar.
+
+### Público
+
+O projeto foi pensado principalmente para jovens em processos de preparação para o mundo do trabalho e desenvolvimento de competências.
+
+### Resultado
+
+O projeto reúne:
+
+- aplicação web;
+- agentes especializados;
+- prompts estruturados;
+- base de conhecimento;
+- documentação técnica;
+- documentação pedagógica;
+- protocolo de testes;
+- matriz de avaliação.
+
+O projeto demonstra uma aplicação prática de IA para apoiar processos educacionais e de desenvolvimento profissional.
+
+## Aprendizados
+
+O desenvolvimento do projeto permitiu explorar conceitos de:
+
+- Inteligência Artificial generativa;
+- engenharia de prompts;
+- agentes especializados;
+- bases de conhecimento;
+- documentação de sistemas;
+- avaliação de respostas;
+- desenvolvimento web;
+- Git e GitHub;
+- GitHub Pages;
+- aplicação de IA em educação.
+
+O principal aprendizado foi compreender que um assistente de IA não depende apenas do modelo utilizado. A qualidade da solução também depende da definição do problema, organização do conhecimento, construção dos prompts, fluxo de interação e avaliação sistemática dos resultados.
