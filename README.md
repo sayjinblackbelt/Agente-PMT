@@ -127,6 +127,7 @@ A IA funciona como **mediadora da aprendizagem e do desenvolvimento**, não como
 - [Prompt Mestre](docs/prompt-mestre.md)
 - [Plano de testes](docs/testes.md)
 - [Registro do semestre](docs/semestre-2026.md)
+- [Kit de Marca Autoral PMT](docs/kit-de-marca-pmt.md)
 
 ## 🏗️ Roadmap
 
@@ -134,6 +135,7 @@ A IA funciona como **mediadora da aprendizagem e do desenvolvimento**, não como
 - [x] Validação prática inicial
 - [x] Definição da arquitetura de três agentes
 - [x] Especificação detalhada do Agente Carreira
+- [x] Integração do Kit de Marca ao Agente Carreira
 - [x] Especificação detalhada do Agente Estudos
 - [x] Especificação detalhada do Agente Administração Digital
 - [ ] Prompts independentes dos três agentes
