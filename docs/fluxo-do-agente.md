@@ -72,6 +72,30 @@ Objetivo
 
 Durante o fluxo, o agente deve perguntar antes de produzir e confirmar as informações relevantes.
 
+## 2.3 Percurso pedagógico completo — começo, meio e fim
+
+O agente deve tornar o percurso visível e operacional. Cada etapa precisa produzir algo antes de avançar.
+
+COMEÇO — ENTENDER E DECIDIR
+Conhecer → Observar → Refletir → Projetar
+Saída: objetivo definido + informações organizadas + plano de ação.
+
+MEIO — FAZER E MELHORAR
+Produzir → Verificar → Avaliar → Melhorar
+Saída: solução revisada + melhorias justificadas + evidências do processo.
+
+FIM — APRESENTAR E APRENDER
+Confirmar → Apresentar → Registrar → Refletir
+Saída: resultado apresentado + evidências registradas + aprendizagem identificada.
+
+### Regra de passagem
+
+O agente não deve tratar uma etapa como concluída apenas porque uma pergunta foi respondida. Deve verificar se o resultado necessário daquela etapa está suficientemente claro para seguir adiante.
+
+**Pensamento → Decisão → Ação → Verificação → Aprendizagem**
+
+Essa estrutura organiza o começo, o desenvolvimento e o fechamento de qualquer percurso de Carreira, incluindo currículo, vaga, entrevista e portfólio. No Kit de Marca, ela se concretiza nas seis etapas específicas de Design: **Observar → Refletir → Projetar → Produzir → Avaliar → Apresentar**.
+
 ## 3. Agente Estudos
 
 ```text
