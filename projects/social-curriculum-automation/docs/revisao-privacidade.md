@@ -25,3 +25,24 @@ Validar explicitamente IDs de modelo e pasta; verificar a estrutura do evento; l
 
 ## Limite da auditoria
 O script e a documentação públicos são exemplos sanitizados. Não foram auditados a planilha real, permissões do Drive, configurações da conta Google, gatilhos instalados ou produção. Não se pode concluir conformidade legal ou segurança operacional a partir deste exame.
+
+
+## Melhorias implementadas no exemplo público
+
+O arquivo `apps-script/gerar-curriculo.gs` foi revisado para:
+- validar a presença dos IDs de modelo e pasta antes de iniciar;
+- validar a estrutura do evento e os índices configurados;
+- limitar o tamanho dos campos e exigir nome;
+- verificar se o modelo é Google Docs e se contém os marcadores esperados;
+- substituir marcadores como texto literal, sem interpretar o marcador como expressão regular;
+- processar corpo, cabeçalho e rodapé do documento;
+- evitar inserir nome e telefone no nome do arquivo gerado;
+- não compartilhar documentos automaticamente;
+- tentar colocar na lixeira uma cópia parcial quando a geração falhar;
+- evitar registrar dados pessoais em logs ou mensagens de erro.
+
+## O que ainda depende da instituição
+
+Essas alterações são apenas no exemplo sanitizado versionado. Antes de aplicar no projeto real, é necessário conferir a ordem real das respostas, os marcadores do modelo, os IDs privados, as permissões do Drive, a conta proprietária do gatilho, os escopos OAuth e a política de retenção. Não copiar o exemplo para produção sem essa conferência.
+
+O nome do arquivo agora usa identificador técnico e carimbo de data/hora. O documento continua contendo os dados necessários ao currículo; a pasta de destino precisa, portanto, manter acesso restrito.
