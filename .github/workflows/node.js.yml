@@ -89,6 +89,7 @@ jobs:
           grep -q "Agente PMT" index.html
           grep -q "Carreira" index.html
           grep -q "Estudos" index.html
-          grep -q "Administração Digital" index.html
-          grep -q "README.en.md" index.html
-          grep -q "README.es.md" index.html
+          grep -q 'href="digital.html"' index.html
+          test -s digital.html
+          test -s README.en.md
+          test -s README.es.md
