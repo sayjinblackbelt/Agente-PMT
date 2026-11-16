@@ -93,3 +93,15 @@ jobs:
           test -s digital.html
           test -s README.en.md
           test -s README.es.md
+
+      - name: Validate Apps Script syntax and safeguards
+        run: |
+          set -euo pipefail
+          script="projects/social-curriculum-automation/apps-script/gerar-curriculo.gs"
+          test -s "$script"
+          node --check --input-type=commonjs < "$script"
+          grep -q "validarConfiguracao_" "$script"
+          grep -q "validarTexto_" "$script"
+          grep -q "substituirMarcadoresLiterais_" "$script"
+          grep -q "getHeader" "$script"
+          grep -q "getFooter" "$script"
