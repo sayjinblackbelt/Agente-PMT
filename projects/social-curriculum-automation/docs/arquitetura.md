@@ -79,3 +79,10 @@ Uma implementação compartilhável deve utilizar configuração externa ou valo
 const MODELO_ID = 'COLE_O_ID_DO_MODELO';
 const PASTA_ID = 'COLE_O_ID_DA_PASTA';
 ```
+
+
+## Validações do exemplo Apps Script
+
+O exemplo sanitizado valida evento, mapeamento de campos, limites de tamanho, configuração de modelo/pasta e presença dos marcadores. A substituição percorre corpo, cabeçalho e rodapé e insere valores como texto literal, evitando interpretar conteúdo do formulário como expressão regular.
+
+O nome do arquivo não inclui nome ou telefone. A rotina não concede permissões nem compartilha o documento; o acesso depende das permissões da pasta de destino. A ordem dos campos e os marcadores devem ser conferidos com o formulário e o modelo institucionais antes de qualquer implantação.
